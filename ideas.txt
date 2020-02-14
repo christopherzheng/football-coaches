@@ -1,0 +1,53 @@
+
+General idea: Query for a football coach's history (e.g. what teams, what positions, who they worked for, who did they worked with, notable players, etc.)
+
+
+Things to figure out: 
+- how to organize data
+	- might be easier to start with building csv files for each school and then do transformations afterward
+	- should also standardize the tables somewhat
+	
+Things to do: 
+1) Write a scraper to get relevant data
+	- Wikipedia -- need to figure out if there's a relevant pattern to links
+		- it won't have everything, but it should be a good start
+	- University athletics pages
+
+Future extensions: 
+- develop an effectivenss metric for head coaches (would be fairly difficult to do this for assistants?)
+
+
+Coaching positions: NFL generally has 15 assistant coaches, FBS generally has 9 assistant coaches and 2 graduate assistants (strength coaches aren't included)  
+1) Head coach
+2) Associate head coach
+	- this seems to be a figurehead position for extra money
+3) Assistant head coach
+	- I don't think this position actually exists across the board, but it might exist at some programs
+4) Offensive coordinator
+-	- it should be noted that some HCs are also the OC
+5) Defensive coordinator
+	- I don't think that this occurs as often as HC/OC combinations, but it's possible
+6) Quarterback coach
+7) Wide receiver coach
+8) Running backs coach
+9) Tight ends coach
+10) Offensive line coach
+11) Defensive line coach
+12) Linebacker coach
+	- need to determine if there's a separate position for outside linebackers and inside linebackers
+13) Defensive backs coach
+	- some wealthier schools might also split this into separate safeties coach and cornerbacks coach
+14) Pass-game coordinator
+	- this also seems to either be a wealthy school thing or an overlapping position
+15) Run-game coordinator
+	- this also seems to either be a wealthy school thing or an overlapping position
+16) Offensive analyst
+17) Defensive analyst
+18) Special teams coach/coordinator
+	- don't know how popular this is at the college football level
+19) Graduate assistants
+20) Recruiting coordinator
+21) Quality control analysts
+22) Strength and conditioning coach
+	- this one probably isn't as relevant information
+
